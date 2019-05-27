@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 body {
   width: auto;
+  margin: 0;
 }
 
 section.main {
