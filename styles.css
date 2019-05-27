@@ -1,19 +1,10 @@
 @import "reset.css";
-
-* {
-  box-sizing: border-box;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
 body {
   width: auto;
-  margin: 0;
-  padding: 0;
-  top: 0px;
   left: 0px;
+  top: 0px;
+  margin: auto;
+  padding: 0;
 }
 
 section.main {
