@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body {
+  width: auto;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  padding: 0;
+}
+
+section.portfolio {
+  width: 1440px;
+}
+
+div.nav {
+  width: 1440px;
+  height: 60px;
+  background-color: #FFFFFF;
+  position:fixed;
+  z-index: 20;
+}
+ul {
+  width: 600px;
+  margin-left: 380px;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+}
+li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #DECDBE;
+  padding-left: 20px;
+}
+
+li:hover {
+  color: #BF5049;
+}
+
+div.nav a{
+  text-decoration: none;
+  color: #DECDBE;
+  cursor: pointer;
+}
+
+section.branding {
+  width: 1440px;
+  height: 1550px;
+}
+
+div.branding-about {
+  width: 900px;
+  height: 440px;
+  margin-left: 220px;
+}
+
+div.branding-back-color {
+  background-color: #DECDBE;
+  width: 510px;
+  height: 285px;
+  margin-top: 70px;
+  z-index: 0;
+  position: absolute;
+}
+
+div.branding-about-text {
+  width: 800px;
+  padding-left: 100px;
+  text-align: center;
+  position: relative;
+  padding-top: 10px ;
+  z-index: 1;
+}
+div.branding-about-text h1 {
+  margin-top: 110px;
+  color: #BF5049;
+  font-size: 48px;
+}
+
+div.branding-about-text p {
+  color: #272727;
+  font-size: 24px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.branding-about-text a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #BF5049;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+div.branding-project {
+  width: 1440px;
+  height: 950px;
+  background-color: #272727;
+}
+
+div.branding-project-text p {
+  width: 800px;
+  margin-left: 320px;
+  padding-top: 100px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+div.branding-works {
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: 300px 50px 300px 50px 300px;
+}
+
+div.branding-image {
+  width: 300px;
+  height: 420px;
+}
+
+div.branding-work {
+  display: grid;
+  grid-template-rows: 420px 80px;
+}
+
+div.branding-text {
+  height: 80px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+div.branding-text p {
+  font-size: 18px;
+  text-align: left;
+  width: 300px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section.posters {
+  margin-top: -150px;
+  width: 1440px;
+  height: 3300px;
+}
+
+div.posters-about{
+  width: 1440px;
+  height: 705px;
+  background-color: #DECDBE;
+  position: absolute;
+}
+
+div.posters-about-text {
+  width: 800px;
+  margin-left: 320px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+div.posters-about-text h1 {
+  color: #272727;
+  font-size: 48px;
+}
+
+div.posters-about-text p {
+  color: #272727;
+  font-size: 24px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.posters-about-text a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #BF5049;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+div.poster-about {
+  width: 1000px;
+  margin-left: 220px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 300px 50px 300px 50px 300px;
+  margin-top: 30px;
+}
+
+div.poster-about-card {
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 300px;
+}
+
+div.poster-about-card h1{
+  font-size: 48px;
+  color: #BF5049;
+  text-align: center;
+  margin-top: 60px;
+}
+
+div.poster-about-card p {
+  width: 260px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+div.graph-posters {
+  position: absolute;
+  margin-top: 705px;
+}
+
+div.graph-posters-about {
+  width: 800px;
+  margin-left: 220px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+div.graph-posters-about h1 {
+  color: #BF5049;
+  font-size: 36px;
+}
+
+div.graph-posters-about p {
+  color: #272727;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.graph-posters-image {
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: 350px 350px 300px;
+  grid-auto-rows: 470px 420px;
+}
+
+div.typograph-posters {
+  width: 1440px;
+  height: 1250px;
+  position: absolute;
+  margin-top: 1900px;
+  background-color: #F1F1F1;
+
+}
+
+div.typograph-posters-about {
+  width: 800px;
+  margin-left: 220px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+div.typograph-posters-about h1 {
+  color: #BF5049;
+  font-size: 36px;
+}
+
+div.typograph-posters-about p {
+  color: #272727;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.typograph-posters-image {
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: 350px 350px 300px;
+  grid-auto-rows: 470px 420px;
+}
+
+section.web-poster {
+  width: 1440px;
+  height: 1200px;
+}
+
+div.web-poster-about {
+  width: 1440px;
+  height: 440px;
+  background-color: #272727;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -200px;
+}
+
+
+div.web-poster-about h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  padding-top: 100px;
+}
+
+div.web-poster-about p {
+  color: #FFFFFF;
+  width: 800px;
+  margin-left: 320px;
+  font-size: 24px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.web-poster-about a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+div.interactive {
+  width: 1440px;
+  height: 825px;
+}
+
+div.interactive img {
+  width: 1000px;
+  height: 625px;
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+section.building {
+  width: 1440px;
+  height: 4250px;
+}
+
+div.building-about {
+  width: 1440px;
+  height: 440px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+
+div.building-about h1 {
+  color: #BF5049;
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+div.building-about p {
+  color: #272727;
+  width: 800px;
+  margin-left: 320px;
+  font-size: 24px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.building-about a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #BF5049;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+div.book-pages {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: 350px 350px 300px;
+  grid-template-rows: 280px 230px;
+}
+
+div.book-pages.two{
+  grid-template-rows: 280px 280px 230px;
+}
+
+div.book-image {
+  width: 1000px;
+  height: 700px;
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+div.building-video {
+  width: 1440px;
+  height: 920px;
+  background-color: #272727;
+  margin-top: 100px;
+}
+
+div.building-video-about {
+  width: 800px;
+  margin-left: 220px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+}
+
+div.building-video-about h1 {
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+div.building-video-about p {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.video {
+  width: 1000px;
+  height: 600px;
+  background-color: #C4C4C4;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+section.rebranding {
+  position: relative;
+  margin-top: 900px;
+  width: 1440px;
+  height: 900px;
+  background-color: #DECDBE;
+}
+
+footer {
+  width: 1440px;
+  height: 300px;
+  background-color: #272727;
+}
