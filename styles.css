@@ -150,9 +150,9 @@
   }
 
   section.project {
-    margin-top: 142.4vh;
+    margin-top: 152.4vh;
     width: 100vw;
-    height: 117.7vh;
+    height: 132.7vh;
     background-color: #272727;
   }
 
@@ -178,7 +178,7 @@
   div.project-cards {
     margin-top: 30vh;
     display: grid;
-    grid-template-rows: 24.7vh 4.5vh 24.7vh 4.5vh 24.7vh;
+    grid-template-rows: 28.7vh 4.5vh 28.7vh 4.5vh 28.7vh;
 
     width: 86.67vw;
     margin-left: 6.67vw;
@@ -203,19 +203,19 @@
   }
 
   div.project-card-one {
-    height: 24.7vh;
+    height: 28.7vh;
     width: 86.67vw;
     background-color: #FFFFFF;
   }
 
   div.project-card-two {
-    height: 24.7vh;
+    height: 28.7vh;
     width: 86.67vw;
     background-color: #FFFFFF;
   }
 
   div.project-card-three {
-    height: 24.7vh;
+    height: 28.7vh;
     width: 86.67vw;
     background-color: #FFFFFF;
   }
