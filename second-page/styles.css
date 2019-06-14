@@ -153,7 +153,7 @@ div.branding-works {
   grid-template-columns: 300px 50px 300px 50px 300px;
 }
 
-div.branding-image {
+div.branding-image img{
   width: 300px;
   height: 420px;
 }
@@ -188,6 +188,7 @@ div.posters-about{
   height: 705px;
   background-color: #DECDBE;
   position: absolute;
+  padding-top: 50px;
 }
 
 div.posters-about-text {
@@ -251,7 +252,7 @@ div.poster-about-card p {
 
 div.graph-posters {
   position: absolute;
-  margin-top: 705px;
+  margin-top: 755px;
 }
 
 div.graph-posters-about {
@@ -380,15 +381,16 @@ section.building {
 
 div.building-about {
   width: 1440px;
-  height: 440px;
+  height: 500px;
   background-color: #F6F6F6;
   text-align: center;
 }
 
+
 div.building-about h1 {
   color: #BF5049;
   font-size: 48px;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 div.building-about p {
@@ -467,7 +469,7 @@ div.video {
 
 section.rebranding {
   position: relative;
-  margin-top: 900px;
+  margin-top: 950px;
   width: 1440px;
   height: 900px;
   background-color: #DECDBE;
