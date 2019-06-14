@@ -1,1 +1,365 @@
 
+@import "reset.css";
+@import "fonts.css";
+
+
+
+
+
+  body {
+    margin: 0;
+    width: 100%;
+    transition: 800ms all ease;
+  }
+
+
+  .head {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  section: {
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+  .background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+
+  }
+  .sky{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    margin-top: -2vh;
+    position: fixed;
+    overflow: hidden;
+  }
+
+  .falling-star{
+    background:#fff;
+    border-radius: 50%;
+    border: #fff 2.6px solid;
+    opacity: 1;
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    z-index: 0;
+
+    -webkit-box-shadow:  0px 0px 4px 2px #B0CDFF;
+    -moz-box-shadow:  0px 0px 4px 2px #B0CDFF;
+    box-shadow: 0px 0px 4px 2px #B0CDFF;
+
+    transition-property: left, top, opacity;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in;
+  }
+
+  .falling-star2{
+    background:#fff;
+    border-radius: 50%;
+    border: #fff 2.6px solid;
+    opacity: 1;
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    z-index: 0;
+
+    -webkit-box-shadow:  0px 0px 4px 2px #B0CDFF;
+    -moz-box-shadow:  0px 0px 4px 2px #B0CDFF;
+    box-shadow: 0px 0px 4px 2px #B0CDFF;
+
+    transition-property: left, top, opacity;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in;
+  }
+
+  .go-falling{
+    position: absolute;
+    top:  33em ; /* as height as the wrapper*/
+    opacity: 0;
+  }
+
+
+
+
+  .up span {
+    font-size: 2.5vw;
+    font-family: Palatino;
+    color: white;
+    text-align: center;
+
+    margin-left: 28vw;
+    margin-top: 72vh;
+
+    opacity: 0.5;
+
+    position: absolute;
+    z-index: 305;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .map {
+    position: absolute;
+    z-index: 100;
+    display: block;
+  }
+
+
+
+  #particles-js {
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+  #star-one {
+    display: none;
+  }
+
+  #star-two {
+    display: none;
+  }
+
+  #star-three {
+    display: none;
+  }
+
+  #star-four {
+    display: none;
+  }
+
+
+
+
+
+
+  .trees {
+    position: absolute;
+    z-index: 100;
+    width: 100vw;
+    height: 55vh;
+    margin-top: 45vh;
+  }
+
+
+  .constellation1 img{
+    position: absolute;
+    z-index: 111;
+    cursor: pointer;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    width: 8vw;
+  }
+
+  .constellation2 img{
+    position: absolute;
+    z-index: 110;
+    cursor: pointer;
+    margin-top: 8vh;
+    margin-left: 40vw;
+    width: 5vw;
+  }
+
+  .constellation3 img{
+    position: absolute;
+    z-index: 107;
+    cursor: pointer;
+    margin-top: 8vh;
+    margin-left: 60vw;
+    width: 5vw;
+  }
+
+  .constellation4 img{
+    position: absolute;
+    z-index: 106;
+    cursor: pointer;
+    margin-top: 32vh;
+    margin-left: 35vw;
+    width: 19vw;
+  }
+
+  .constellation5 img{
+    position: absolute;
+    z-index: 108;
+    cursor: pointer;
+    margin-top: 40vh;
+    margin-left: 10vw;
+    width: 9vw;
+  }
+
+  .constellation6 img{
+    position: absolute;
+    z-index: 104;
+    cursor: pointer;
+    margin-top: 65vh;
+    margin-left: 25vw;
+    width: 11vw;
+  }
+
+  .constellation7 img{
+    position: absolute;
+    z-index: 103;
+    cursor: pointer;
+    margin-top: 70vh;
+    margin-left: 40vw;
+    width: 2vw;
+  }
+
+  .constellation8 img {
+    position: absolute;
+    z-index: 105;
+    cursor: pointer;
+    margin-top: 35vh;
+    margin-left: 86vw;
+    width: 7vw;
+  }
+
+  .constellation9 img{
+    position: absolute;
+    z-index: 102;
+    cursor: pointer;
+    margin-top: 47vh;
+    margin-left: 60vw;
+    width: 22vw;
+  }
+
+  .constellation10 img{
+    position: absolute;
+    z-index: 109;
+    cursor: pointer;
+    margin-top: 20vh;
+    margin-left: 70vw;
+    width: 12vw;
+
+  }
+
+  .constellation11 img{
+    position: absolute;
+    z-index: 101;
+    cursor: pointer;
+    margin-top: 35vh;
+    margin-left: 55vw;
+    width: 3vw;
+  }
+
+  .up h1 {
+    font-family: Celestina;
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    z-index: 305;
+
+    font-size: 6.5vw;
+    margin-left: 28vw;
+    margin-top: 78vh;
+  }
+  h4 {
+    font-family: Celestina;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 305;
+    font-size: 7vw;
+    margin-left: 25vw;
+    margin-top: 110vh;
+  }
+
+  .up p {
+
+    font-family: Palatino;
+    color: white;
+    text-align: center;
+
+    opacity: 0.5;
+
+    position: absolute;
+    z-index: 305;
+
+    font-size: 2vw;;
+    margin-left: 34vw;
+    margin-top: 94vh;
+  }
+
+  .up h2 {
+    font-family: Celestina;
+    color: white;
+    text-align: center;
+
+    position: absolute;
+    z-index: 305;
+    font-size: 8vw;
+    margin-left: 27vw;
+    margin-top: 70vh;
+  }
+
+  .up span {
+    font-family: Palatino;
+    color: white;
+    text-align: center;
+
+
+    opacity: 0.5;
+
+    position: absolute;
+    z-index: 305;
+    font-size: 2.5vw;;
+    margin-left: 28vw;
+    margin-top: 90vh;
+  }
+
+
+
+
+  #star-one img{
+    position: absolute;
+    z-index: 200;
+
+    width: 40vw;
+    height: auto;
+    margin: 30vw;
+    margin-top: -2vh;
+  }
+
+  #star-two img{
+    position: absolute;
+    z-index: 200;
+
+    width: 40vw;
+    height: auto;
+    margin: 30vw;
+    margin-top: -2vh;
+  }
+
+  #star-three img{
+    position: absolute;
+    z-index: 200;
+    width: 40vw;
+    height: auto;
+    margin: 30vw;
+    margin-top: -2vh;
+  }
+
+  #star-four img{
+    position: absolute;
+    z-index: 200;
+    width: 40vw;
+    height: auto;
+    margin: 30vw;
+    margin-top: -2vh;
+  }
+}
