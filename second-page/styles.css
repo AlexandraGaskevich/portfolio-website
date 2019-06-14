@@ -367,7 +367,7 @@ div.interactive {
   height: 825px;
 }
 
-div.interactive img {
+div.interactive iframe {
   width: 1000px;
   height: 625px;
   margin-left: 220px;
