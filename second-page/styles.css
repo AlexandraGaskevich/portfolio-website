@@ -1,482 +1,1009 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-body {
-  width: auto;
-  left: 0px;
-  top: 0px;
-  margin: auto;
-  padding: 0;
-}
-
-section.portfolio {
-  width: 1440px;
-}
-
-nav.main-nav {
-  position: absolute;
-  opacity: 0.2;
-  width: 100px;
-  margin-left: 1200px;
-  height: 20px;
-  z-index: 25;
-  margin-top: 35px;
-
-}
-nav:hover {
-  opacity: 1;
-}
-nav.main-nav ul {
-  line-height: 2;
-  list-style: none;
-  position: absolute;
-  z-index: 2;
-  margin-top: -20px;
-}
-nav.main-nav li {
-  display:  run-in;
-  text-align: right;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  color: #272727;
-  padding-left: 50px;
-}
-nav.main-nav a{
-  text-decoration: none;
-  color: #272727;
-  cursor: pointer;
-}
-
-div.nav {
-  width: 1440px;
-  height: 60px;
-  background-color: #FFFFFF;
-  position:fixed;
-  z-index: 20;
-}
-div.nav ul {
-  width: 600px;
-  margin-left: 380px;
-  list-style: none;
-  position: absolute;
-  z-index: 2;
-}
-div.nav li {
-  display: inline;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  color: #DECDBE;
-  padding-left: 20px;
-}
-
-div.nav :hover {
-  color: #BF5049;
-}
-
-div.nav a{
-  text-decoration: none;
-  color: #DECDBE;
-  cursor: pointer;
-}
-
-section.branding {
-  width: 1440px;
-  height: 1550px;
-}
-
-div.branding-about {
-  width: 900px;
-  height: 440px;
-  margin-left: 220px;
-}
-
-div.branding-back-color {
-  background-color: #DECDBE;
-  width: 510px;
-  height: 285px;
-  margin-top: 70px;
-  z-index: 0;
-  position: absolute;
-}
-
-div.branding-about-text {
-  width: 800px;
-  padding-left: 100px;
-  text-align: center;
-  position: relative;
-  padding-top: 10px ;
-  z-index: 1;
-}
-div.branding-about-text h1 {
-  margin-top: 110px;
-  color: #BF5049;
-  font-size: 48px;
-}
-
-div.branding-about-text p {
-  color: #272727;
-  font-size: 24px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.branding-about-text a {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  color: #BF5049;
-  cursor: pointer;
-  margin-top: -20px;
-}
-
-div.branding-project {
-  width: 1440px;
-  height: 950px;
-  background-color: #272727;
-}
-
-div.branding-project-text p {
-  width: 800px;
-  margin-left: 320px;
-  padding-top: 100px;
-  font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-div.branding-works {
-  width: 1000px;
-  margin-top: 50px;
-  margin-left: 220px;
-  display: grid;
-  grid-template-columns: 300px 50px 300px 50px 300px;
-}
-
-div.branding-image img{
-  width: 300px;
-  height: 420px;
-}
-
-div.branding-work {
-  display: grid;
-  grid-template-rows: 420px 80px;
-}
-
-div.branding-text {
-  height: 80px;
-  width: 300px;
-  margin-top: 20px;
-}
-
-div.branding-text p {
-  font-size: 18px;
-  text-align: left;
-  width: 300px;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-}
-
-section.posters {
-  margin-top: -150px;
-  width: 1440px;
-  height: 3300px;
-}
-
-div.posters-about{
-  width: 1440px;
-  height: 705px;
-  background-color: #DECDBE;
-  position: absolute;
-  padding-top: 50px;
-}
-
-div.posters-about-text {
-  width: 800px;
-  margin-left: 320px;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-
-div.posters-about-text h1 {
-  color: #272727;
-  font-size: 48px;
-}
-
-div.posters-about-text p {
-  color: #272727;
-  font-size: 24px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.posters-about-text a {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  color: #BF5049;
-  cursor: pointer;
-  margin-top: -20px;
-}
-
-div.poster-about {
-  width: 1000px;
-  margin-left: 220px;
-  height: 300px;
-  display: grid;
-  grid-template-columns: 300px 50px 300px 50px 300px;
-  margin-top: 30px;
-}
-
-div.poster-about-card {
-  background-color: #FFFFFF;
-  width: 300px;
-  height: 300px;
-}
-
-div.poster-about-card h1{
-  font-size: 48px;
-  color: #BF5049;
-  text-align: center;
-  margin-top: 60px;
-}
-
-div.poster-about-card p {
-  width: 260px;
-  margin-left: 20px;
-  text-align: center;
-  font-size: 18px;
-  margin-top: -20px;
-}
-
-div.graph-posters {
-  position: absolute;
-  margin-top: 755px;
-}
-
-div.graph-posters-about {
-  width: 800px;
-  margin-left: 220px;
-  text-align: left;
-  position: relative;
-  z-index: 1;
-}
-
-div.graph-posters-about h1 {
-  color: #BF5049;
-  font-size: 36px;
-}
-
-div.graph-posters-about p {
-  color: #272727;
-  font-size: 18px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.graph-posters-image {
-  width: 1000px;
-  margin-top: 50px;
-  margin-left: 220px;
-  display: grid;
-  grid-template-columns: 350px 350px 300px;
-  grid-auto-rows: 470px 420px;
-}
-
-div.typograph-posters {
-  width: 1440px;
-  height: 1250px;
-  position: absolute;
-  margin-top: 1900px;
-  background-color: #F1F1F1;
-
-}
-
-div.typograph-posters-about {
-  width: 800px;
-  margin-left: 220px;
-  text-align: left;
-  position: relative;
-  z-index: 1;
-}
-
-div.typograph-posters-about h1 {
-  color: #BF5049;
-  font-size: 36px;
-}
-
-div.typograph-posters-about p {
-  color: #272727;
-  font-size: 18px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.typograph-posters-image {
-  width: 1000px;
-  margin-top: 50px;
-  margin-left: 220px;
-  display: grid;
-  grid-template-columns: 350px 350px 300px;
-  grid-auto-rows: 470px 420px;
-}
-
-section.web-poster {
-  width: 1440px;
-  height: 1200px;
-}
-
-div.web-poster-about {
-  width: 1440px;
-  height: 440px;
-  background-color: #272727;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  margin-top: -200px;
-}
-
-
-div.web-poster-about h1 {
-  color: #FFFFFF;
-  font-size: 48px;
-  padding-top: 100px;
-}
-
-div.web-poster-about p {
-  color: #FFFFFF;
-  width: 800px;
-  margin-left: 320px;
-  font-size: 24px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.web-poster-about a {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
-  cursor: pointer;
-  margin-top: -20px;
-}
-
-div.interactive {
-  width: 1440px;
-  height: 825px;
-}
-
-div.interactive iframe {
-  width: 1000px;
-  height: 625px;
-  margin-left: 220px;
-  margin-top: 100px;
-}
-
-section.building {
-  width: 1440px;
-  height: 4250px;
-}
-
-div.building-about {
-  width: 1440px;
-  height: 500px;
-  background-color: #F6F6F6;
-  text-align: center;
-}
-
-
-div.building-about h1 {
-  color: #BF5049;
-  font-size: 48px;
-  padding-top: 90px;
-}
-
-div.building-about p {
-  color: #272727;
-  width: 800px;
-  margin-left: 320px;
-  font-size: 24px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.building-about a {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-  color: #BF5049;
-  cursor: pointer;
-  margin-top: -20px;
-}
-
-div.book-pages {
-  margin-top: 100px;
-  width: 1000px;
-  margin-left: 220px;
-  display: grid;
-  grid-template-columns: 350px 350px 300px;
-  grid-template-rows: 280px 230px;
-}
-
-div.book-pages.two{
-  grid-template-rows: 280px 280px 230px;
-}
-
-div.book-image {
-  width: 1000px;
-  height: 700px;
-  margin-left: 220px;
-  margin-top: 100px;
-}
-
-div.building-video {
-  width: 1440px;
-  height: 920px;
-  background-color: #272727;
-  margin-top: 100px;
-}
-
-div.building-video-about {
-  width: 800px;
-  margin-left: 220px;
-  text-align: left;
-  position: relative;
-  z-index: 1;
-  padding-top: 50px;
-}
-
-div.building-video-about h1 {
-  color: #FFFFFF;
-  font-size: 36px;
-}
-
-div.building-video-about p {
-  color: #FFFFFF;
-  font-size: 18px;
-  margin-top: -20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-div.video {
-  width: 1000px;
-  height: 600px;
-  background-color: #C4C4C4;
-  margin-left: 220px;
-  margin-top: 50px;
-}
-
-section.rebranding {
-  position: relative;
-  margin-top: 950px;
-  width: 1440px;
-  height: 900px;
-  background-color: #DECDBE;
-}
 
-footer {
-  width: 1440px;
-  height: 300px;
-  background-color: #272727;
+@media (min-width: 1440px) {
+  body {
+    width: auto;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    padding: 0;
+  }
+
+  section.portfolio {
+    width: 1440px;
+  }
+
+  nav.main-nav {
+    position: absolute;
+    opacity: 0.2;
+    width: 100px;
+    margin-left: 1200px;
+    height: 20px;
+    z-index: 25;
+    margin-top: 35px;
+
+  }
+  nav:hover {
+    opacity: 1;
+  }
+  nav.main-nav ul {
+    line-height: 2;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    margin-top: -20px;
+  }
+  nav.main-nav li {
+    display:  run-in;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #272727;
+    padding-left: 50px;
+  }
+  nav.main-nav a{
+    text-decoration: none;
+    color: #272727;
+    cursor: pointer;
+  }
+
+  div.nav {
+    width: 1440px;
+    height: 60px;
+    background-color: #FFFFFF;
+    position:fixed;
+    z-index: 20;
+  }
+  div.nav ul {
+    width: 600px;
+    margin-left: 380px;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+  }
+  div.nav li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #DECDBE;
+    padding-left: 20px;
+  }
+
+  div.nav :hover {
+    color: #BF5049;
+  }
+
+  div.nav a{
+    text-decoration: none;
+    color: #DECDBE;
+    cursor: pointer;
+  }
+
+  section.branding {
+    width: 1440px;
+    height: 1550px;
+  }
+
+  div.branding-about {
+    width: 900px;
+    height: 440px;
+    margin-left: 220px;
+  }
+
+  div.branding-back-color {
+    display: block;
+    background-color: #DECDBE;
+    width: 510px;
+    height: 285px;
+    margin-top: 70px;
+    z-index: 0;
+    position: absolute;
+  }
+
+  div.branding-about-text {
+    width: 800px;
+    padding-left: 100px;
+    text-align: center;
+    position: relative;
+    padding-top: 10px ;
+    z-index: 1;
+  }
+  div.branding-about-text h1 {
+    margin-top: 110px;
+    color: #BF5049;
+    font-size: 48px;
+  }
+
+  div.branding-about-text p {
+    color: #272727;
+    font-size: 24px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.branding-about-text a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+
+  div.branding-project {
+    width: 1440px;
+    height: 950px;
+    background-color: #272727;
+  }
+
+  div.branding-project-text p {
+    width: 800px;
+    margin-left: 320px;
+    padding-top: 100px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  div.branding-works {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 300px 50px 300px 50px 300px;
+  }
+
+  div.branding-image img{
+    width: 300px;
+    height: 420px;
+  }
+
+  div.branding-work {
+    display: grid;
+    grid-template-rows: 420px 80px;
+  }
+
+  div.branding-text {
+    height: 80px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  div.branding-text p {
+    font-size: 18px;
+    text-align: left;
+    width: 300px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  section.posters {
+    margin-top: -150px;
+    width: 1440px;
+    height: 3300px;
+  }
+
+  div.posters-about{
+    width: 1440px;
+    height: 705px;
+    background-color: #DECDBE;
+    position: absolute;
+    padding-top: 50px;
+  }
+
+  div.posters-about-text {
+    width: 800px;
+    margin-left: 320px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.posters-about-text h1 {
+    color: #272727;
+    font-size: 48px;
+  }
+
+  div.posters-about-text p {
+    color: #272727;
+    font-size: 24px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.posters-about-text a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+
+  div.poster-about {
+    width: 1000px;
+    margin-left: 220px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 300px 50px 300px 50px 300px;
+    margin-top: 30px;
+  }
+
+  div.poster-about-card {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 300px;
+  }
+
+  div.poster-about-card h1{
+    font-size: 48px;
+    color: #BF5049;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  div.poster-about-card p {
+    width: 260px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+  }
+
+  div.graph-posters {
+    position: absolute;
+    margin-top: 755px;
+  }
+
+  div.graph-posters-about {
+    width: 800px;
+    margin-left: 220px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.graph-posters-about h1 {
+    color: #BF5049;
+    font-size: 36px;
+  }
+
+  div.graph-posters-about p {
+    color: #272727;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.graph-posters-image {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 350px 350px 300px;
+    grid-auto-rows: 470px 420px;
+  }
+
+  div.typograph-posters {
+    width: 1440px;
+    height: 1250px;
+    position: absolute;
+    margin-top: 1900px;
+    background-color: #F1F1F1;
+
+  }
+
+  div.typograph-posters-about {
+    width: 800px;
+    margin-left: 220px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.typograph-posters-about h1 {
+    color: #BF5049;
+    font-size: 36px;
+  }
+
+  div.typograph-posters-about p {
+    color: #272727;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.typograph-posters-image {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 350px 350px 300px;
+    grid-auto-rows: 470px 420px;
+  }
+
+  section.web-poster {
+    width: 1440px;
+    height: 1200px;
+  }
+
+  div.web-poster-about {
+    width: 1440px;
+    height: 440px;
+    background-color: #272727;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+  }
+
+
+  div.web-poster-about h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  div.web-poster-about p {
+    color: #FFFFFF;
+    width: 800px;
+    margin-left: 320px;
+    font-size: 24px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.web-poster-about a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+
+  div.interactive {
+    width: 1440px;
+    height: 825px;
+  }
+
+  div.interactive iframe {
+    width: 1000px;
+    height: 625px;
+    margin-left: 220px;
+    margin-top: 100px;
+  }
+
+  section.building {
+    width: 1440px;
+    height: 4250px;
+  }
+
+  div.building-about {
+    width: 1440px;
+    height: 500px;
+    background-color: #F6F6F6;
+    text-align: center;
+  }
+
+
+  div.building-about h1 {
+    color: #BF5049;
+    font-size: 48px;
+    padding-top: 90px;
+  }
+
+  div.building-about p {
+    color: #272727;
+    width: 800px;
+    margin-left: 320px;
+    font-size: 24px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.building-about a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+
+  div.book-pages {
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 350px 350px 300px;
+    grid-template-rows: 280px 230px;
+  }
+
+  div.book-pages.two{
+    grid-template-rows: 280px 280px 230px;
+  }
+
+  div.book-image {
+    width: 1000px;
+    height: 700px;
+    margin-left: 220px;
+    margin-top: 100px;
+  }
+
+  div.building-video {
+    width: 1440px;
+    height: 920px;
+    background-color: #272727;
+    margin-top: 100px;
+  }
+
+  div.building-video-about {
+    width: 800px;
+    margin-left: 220px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+  }
+
+  div.building-video-about h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+  }
+
+  div.building-video-about p {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.video {
+    width: 1000px;
+    height: 600px;
+    background-color: #C4C4C4;
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+
+  section.rebranding {
+    display: block;
+    position: relative;
+    margin-top: 950px;
+    width: 1440px;
+    height: 900px;
+    background-color: #DECDBE;
+  }
+
+  footer {
+    width: 1440px;
+    height: 300px;
+    background-color: #272727;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 1439px){
+  body {
+    width: auto;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    padding: 0;
+  }
+
+  section.portfolio {
+    width: 375px;
+  }
+
+  nav.main-nav {
+    margin-top: 10px;
+    position: absolute;
+    opacity: 0.2;
+    width: 375px;
+    height: 20px;
+    z-index: 25;
+  }
+  nav:hover {
+    opacity: 1;
+  }
+  nav.main-nav ul {
+    width: 235px;
+    margin-left: 25px;
+    line-height: 2;
+    list-style: none;
+    position: absolute;
+    z-index: 0;
+  }
+  nav.main-nav li {
+    display:  inline;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #272727;
+    padding-left: 20px;
+  }
+  nav.main-nav a{
+    text-decoration: none;
+    color: #272727;
+    cursor: pointer;
+  }
+
+  div.nav {
+    width: 375px;
+    height: 30px;
+    background-color: #FFFFFF;
+    position:fixed;
+    z-index: 20;
+  }
+  div.nav ul {
+    width: 375px;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+  }
+  div.nav li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #DECDBE;
+    padding-left: 5px;
+  }
+
+  div.nav :hover {
+    color: #BF5049;
+  }
+
+  div.nav a{
+    text-decoration: none;
+    color: #DECDBE;
+    cursor: pointer;
+  }
+
+  section.branding {
+    margin-top: 30px;
+    position: absolute;
+    width: 375px;
+    height: 2055px;
+    background-color: #FFFFFF;
+  }
+
+  div.branding-about {
+    height: 30vh;
+    width: 86.67vw;
+    position: absolute;
+  }
+
+  div.branding-back-color {
+    display: none;
+  }
+
+  div.branding-about-text {
+    width: 86.67vw;
+    margin-left: 6.67vw;
+
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  div.branding-about-text h1 {
+    margin-top: ;
+    color: #BF5049;
+    font-size: 6.4vw;
+    font-family: 'Playfair Display', serif;
+  }
+
+  div.branding-about-text p {
+    color: #272727;
+    font-size: 3.7vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.branding-about-text a {
+    text-decoration: none;
+    font-size: 3.2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  div.branding-project {
+    margin-top: 250px;
+    position: absolute;
+    width: 375px;
+    height: 1820px;
+    background-color: #272727;
+  }
+
+  div.branding-project-text p {
+    width: 325px;
+    margin-left: 25px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  div.branding-works {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 37.5px;
+    display: grid;
+    grid-template-rows: 525px 30px 525px 30px 525px;
+  }
+
+  div.branding-image img{
+    width: 300px;
+    height: 420px;
+  }
+
+  div.branding-work {
+    display: grid;
+    grid-template-rows: 420px 80px;
+  }
+
+  div.branding-text {
+    height: 80px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  div.branding-text p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  section.posters {
+    width: 375px;
+    height: 3300px;
+    position: absolute;
+    margin-top: 2100px;
+  }
+
+  div.posters-about{
+    width: 375px;
+    height: 920px;
+    background-color: #DECDBE;
+    position: absolute;
+    padding-top: 50px;
+  }
+
+  div.posters-about-text {
+    width: 325px;
+    margin-left: 25px;
+    margin-top: -50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.posters-about-text h1 {
+    color: #272727;
+    font-size: 24px;
+  }
+
+  div.posters-about-text p {
+    color: #272727;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.posters-about-text a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    padding-top: 30px;
+  }
+
+  div.poster-about {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 86.67vw;
+    height: 110vh;
+    margin-left: 6.67vw;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  div.poster-about-card {
+    background-color: #FFFFFF;
+    height: 33.7vh;
+    width: 86.67vw;
+  }
+
+  div.poster-about-card h1{
+    font-size: 6.4vw;
+    color: #BF5049;
+    text-align: center;
+    margin-top: 10vh;
+  }
+
+  div.poster-about-card p {
+    text-align: center;
+    font-size: 14px;
+    width: 80vw;
+    margin-left: 3.335vw;
+    margin-top: -1.5vh;
+  }
+
+  div.graph-posters {
+    position: absolute;
+    margin-top: 975px;
+  }
+
+  div.graph-posters-about {
+    width: 325px;
+    margin-left: 25px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.graph-posters-about h1 {
+    color: #BF5049;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  div.graph-posters-about p {
+    text-align: center;
+    color: #272727;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.graph-posters-image {
+    width: 300px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 37.5px;
+    display: grid;
+    grid-template-rows: 450px 450px 450px 450px 450px 420px;
+  }
+
+  div.typograph-posters {
+    width: 375px;
+    position: absolute;
+    margin-top: 3890px;
+    background-color: #F1F1F1;
+
+  }
+
+  div.typograph-posters-about {
+    width: 325px;
+    margin-left: 25px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.typograph-posters-about h1 {
+    color: #BF5049;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  div.typograph-posters-about p {
+    text-align: center;
+    color: #272727;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.typograph-posters-image {
+    width: 300px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 37.5px;
+    display: grid;
+    grid-template-rows: 450px 450px 450px 450px 450px 420px;
+  }
+
+  section.web-poster {
+    width: 375px;
+    height: 1200px;
+    margin-top: 9080px;
+    position: absolute;
+  }
+
+  div.web-poster-about {
+    width: 375px;
+    height: 230px;
+    background-color: #272727;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+  }
+
+
+  div.web-poster-about h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  div.web-poster-about p {
+    color: #FFFFFF;
+    width: 325px;
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+  }
+
+  div.web-poster-about a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  div.interactive {
+    width: 375px;
+    height: 825px;
+  }
+
+  div.interactive iframe {
+    width: 345px;
+    height: 235px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  section.building {
+    width: 375px;
+    height: 4250px;
+    position: absolute;
+    margin-top: 9410px;
+  }
+
+  div.building-about {
+    width: 375;
+    height: 310px;
+    background-color: #F6F6F6;
+    text-align: center;
+  }
+
+
+  div.building-about h1 {
+    color: #BF5049;
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  div.building-about p {
+    color: #272727;
+    width: 325px;
+    margin-left: 25px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  div.building-about a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  div.book-pages {
+    margin-top: 30px;
+    width: 300px;
+    height: 1550px;
+    margin-left: 37.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  div.book-pages.two{
+    height: 2350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  div.book-image img{
+    width: 300px;
+    height: auto;
+    margin-left: 37.5px;
+    margin-top: 30px;
+  }
+
+  div.building-video {
+    width: 375px;
+    height: 360px;
+    background-color: #272727;
+    margin-top: 30px;
+  }
+
+  div.building-video-about {
+    width: 375px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+  }
+
+  div.building-video-about h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  div.building-video-about p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    width: 325px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.video {
+    width: 375px;
+    height: 320px;
+    background-color: #C4C4C4;
+    margin-top: 30px;
+  }
+
+  div.video iframe{
+    margin-top: 30px;
+    width: 325px;
+    height: 260px;
+    margin-left: 25px;
+  }
+
+  section.rebranding {
+    display: none;
+    position: absolute;
+    margin-top: 9950px;
+    width: 375px;
+    height: 300px;
+    background-color: #DECDBE;
+  }
+
+  footer {
+    margin-top: 16270px;
+    position: absolute;
+    width: 375px;
+    height: 100px;
+    background-color: #272727;
+  }
 }
