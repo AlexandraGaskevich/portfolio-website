@@ -106,7 +106,7 @@
   }
   div.photo img {
     width: 100vw;
-    height: 75vh;
+    height: auto;
     z-index: 0;
   }
 
@@ -177,10 +177,12 @@
 
   div.project-cards {
     margin-top: 30vh;
-    display: grid;
-    grid-template-rows: 28.7vh 4.5vh 28.7vh 4.5vh 28.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     width: 86.67vw;
+    height: 95vh;
     margin-left: 6.67vw;
     margin-top: ;
     position: absolute;
@@ -251,7 +253,7 @@
 
     div.card-image img{
       width: 100vw;
-      height: 78.6vh;
+      height: auto;
       z-index: 4;
     }
 
@@ -306,7 +308,7 @@
 
 
     section.copyright {
-      margin-top: 495.2vh;
+      margin-top: 505.2vh;
       width: 100vw;
     }
 
@@ -341,7 +343,7 @@
     }
 
     footer {
-      margin-top: 522.7vh;
+      margin-top: 532.7vh;
       width: 100vw;
       background-color: #272727;
       padding-bottom: 10vh;
@@ -523,7 +525,7 @@
   }
   div.photo img {
     width: 28.8vw;
-    height: 61.1vh;
+    height: auto;
   }
 
 
@@ -554,9 +556,9 @@
   }
 
   div.project-cards {
-    display: grid;
-    grid-template-columns: 33.3vh 5.56vh 33.3vh 5.56vh 33.3vh;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 69.4vw;
     margin-left: 15.3vw;
     margin-top: 35.56vh;
@@ -940,7 +942,7 @@
   }
   div.photo img {
     width: 28.8vw;
-    height: 61.1vh;
+    height: auto;
   }
 
 
@@ -971,9 +973,9 @@
   }
 
   div.project-cards {
-    display: grid;
-    grid-template-columns: 33.3vh 5.56vh 33.3vh 5.56vh 33.3vh;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 69.4vw;
     margin-left: 15.3vw;
     margin-top: 35.56vh;
