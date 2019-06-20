@@ -58,10 +58,11 @@
   }
   div.nav ul {
     width: 41.67vw;
-    margin-left: 26.38vw;
+    margin-left: 29.165vw;
     list-style: none;
     position: absolute;
     z-index: 2;
+    padding-top: 2.2vh;
   }
   div.nav li {
     display: inline;
