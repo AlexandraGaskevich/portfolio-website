@@ -285,7 +285,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 52.2vh 46.67vh;
+    grid-template-rows: 58.2vh 46.67vh;
   }
 
   div.graph-posters-image img {
@@ -294,11 +294,11 @@
 
   div.typograph-posters {
     width: 100vw;
-    height: 138.89vh;
+    height: 150.89vh;
     position: absolute;
     margin-top: 211.1vh;
     background-color: #F1F1F1;
-
+    padding-bottom: 6vh;
   }
 
   div.typograph-posters-about {
@@ -327,7 +327,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 52.2vh 46.67vh;
+    grid-template-rows: 58.2vh 46.67vh;
   }
 
   div.typograph-posters-image img {
@@ -335,6 +335,7 @@
   }
 
   section.web-poster {
+    padding-top: 0.1vh;
     width: 100vw;
     height: 133.3vh;
   }
@@ -791,7 +792,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 52.2vh 46.67vh;
+    grid-auto-rows: 58.2vh 46.67vh;
   }
 
   div.graph-posters-image img {
@@ -803,7 +804,7 @@
     width: 100vw;
     height: 138.89vh;
     position: absolute;
-    margin-top: 211.1vh;
+    margin-top: 226.1vh;
     background-color: #F1F1F1;
 
   }
@@ -844,6 +845,7 @@
   section.web-poster {
     width: 100vw;
     height: 133.3vh;
+    margin-top: 20vh;
   }
 
   div.web-poster-about {
