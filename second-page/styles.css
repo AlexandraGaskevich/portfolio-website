@@ -62,7 +62,6 @@
     list-style: none;
     position: absolute;
     z-index: 2;
-    padding-top: 2.2vh;
   }
   div.nav li {
     display: inline;
@@ -285,18 +284,19 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-template-rows: 58.2vh 46.67vh;
+    grid-auto-rows: 58.2vh 46.67vh;
   }
 
   div.graph-posters-image img {
-    width: 69.4vw;
+    width: 21.4vw;
+    height: auto;
   }
 
   div.typograph-posters {
     width: 100vw;
     height: 150.89vh;
     position: absolute;
-    margin-top: 211.1vh;
+    margin-top: 219.1vh;
     background-color: #F1F1F1;
     padding-bottom: 6vh;
   }
@@ -327,17 +327,17 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-template-rows: 58.2vh 46.67vh;
+    grid-auto-rows: 52.2vh 46.67vh;
   }
 
   div.typograph-posters-image img {
-    width: 69.4vw;
+    width: 21.4vw;
   }
 
   section.web-poster {
     padding-top: 0.1vh;
     width: 100vw;
-    height: 133.3vh;
+    height: 117.3vh;
   }
 
   div.web-poster-about {
@@ -384,30 +384,31 @@
     width: 69.4vw;
     height: 69.4vh;
     margin-left: 15.28vw;
-    margin-top: 11.1vh;
+    margin-top: 11.135vh;
   }
 
   section.building {
     width: 100vw;
-    height: 472.2vh;
+    height: 478.2vh;
+    background-color: #F6F6F6;
   }
 
   div.building-about {
     width: 100vw;
     height: 55.56vh;
-    background-color: #F6F6F6;
+    background-color: #272727;
     text-align: center;
   }
 
 
   div.building-about h1 {
-    color: #BF5049;
+    color: #FFFFFF;
     font-size: 3.33vw;
     padding-top: 10vh;
   }
 
   div.building-about p {
-    color: #272727;
+    color: #FFFFFF;
     width: 55.56vw;
     margin-left: 35.56vh;
     font-size: 1.67vw;
@@ -419,7 +420,7 @@
     text-decoration: none;
     font-size: 1.25vw;
     font-family: 'Montserrat', sans-serif;
-    color: #BF5049;
+    color: #FFFFFF;
     cursor: pointer;
     margin-top: -2.2vh;
   }
@@ -434,7 +435,7 @@
   }
 
   div.book-pages img {
-    width: 69.4vw;
+    width: 21.4vw;
   }
 
   div.book-pages.two{
@@ -447,6 +448,12 @@
     margin-left: 15.28vw;
     margin-top: 11.1vh;
   }
+
+  div.book-image img {
+    width: 70vw;
+  }
+
+
 
   div.building-video {
     width: 100vw;
@@ -489,8 +496,65 @@
     position: relative;
     margin-top: 105.56vh;
     width: 100vw;
-    height: 100vh;
+    height: 218vh;
     background-color: #DECDBE;
+  }
+
+  div.rebranding-about {
+    width: 100vw;
+    height: 55.56vh;
+    text-align: center;
+  }
+
+
+  div.rebranding-about h1 {
+    color: #BF5049;
+    font-size: 3.33vw;
+    padding-top: 6vh;
+  }
+
+  div.rebranding-about p {
+    color: #272727;
+    width: 55.56vw;
+    margin-left: 35.56vh;
+    font-size: 1.67vw;
+    margin-top: -2.2vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.rebranding-about a {
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -2.2vh;
+  }
+
+  div.rebranding-logo {
+    width: 100vw;
+    height: 70.3vh;
+    margin-top: -20vh;
+  }
+  div.rebranding-logo img{
+    width: 41.67vw;
+    height: 58.3vh;
+    margin-left: 30.167vw;
+    margin-top: 6vh;
+  }
+
+  div.rebranding-posters {
+    width: 69.4vw;
+    margin-top: 5.56vh;
+    margin-left: 15.28vw;
+    display: grid;
+    grid-template-columns: 24.3vw 24.3vw 20.8vw;
+    grid-template-rows: 52.2vh 46.67vh;
+  }
+
+  div.rebranding-posters img {
+    width: 21.4vw;
+    height: auto;
   }
 
   footer {
@@ -514,7 +578,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 1439px){
   body {
     width: auto;
     left: 0;
@@ -792,7 +856,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 58.2vh 46.67vh;
+    grid-template-rows: 58.2vh 46.67vh;
   }
 
   div.graph-posters-image img {
@@ -835,7 +899,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 52.2vh 46.67vh;
+    grid-template-rows: 52.2vh 46.67vh;
   }
 
   div.typograph-posters-image img {
@@ -897,25 +961,26 @@
 
   section.building {
     width: 100vw;
-    height: 472.2vh;
+    height: 512.2vh;
+    background-color: #F6F6F6;
   }
 
   div.building-about {
     width: 100vw;
     height: 55.56vh;
-    background-color: #F6F6F6;
+    background-color: #272727;
     text-align: center;
   }
 
 
   div.building-about h1 {
-    color: #BF5049;
+    color: #FFFFFF;
     font-size: 3.33vw;
     padding-top: 10vh;
   }
 
   div.building-about p {
-    color: #272727;
+    color: #FFFFFF;
     width: 55.56vw;
     margin-left: 35.56vh;
     font-size: 1.67vw;
@@ -927,7 +992,7 @@
     text-decoration: none;
     font-size: 1.25vw;
     font-family: 'Montserrat', sans-serif;
-    color: #BF5049;
+    color: #FFFFFF;
     cursor: pointer;
     margin-top: -2.2vh;
   }
@@ -1005,10 +1070,67 @@
   section.rebranding {
     display: block;
     position: relative;
-    margin-top: 140vh;
+    margin-top: 100vh;
     width: 100vw;
-    height: 100vh;
+    height: 240vh;
     background-color: #DECDBE;
+  }
+
+  div.rebranding-about {
+    width: 100vw;
+    height: 55.56vh;
+    text-align: center;
+  }
+
+
+  div.rebranding-about h1 {
+    color: #BF5049;
+    font-size: 3.33vw;
+    padding-top: 6vh;
+  }
+
+  div.rebranding-about p {
+    color: #272727;
+    width: 55.56vw;
+    margin-left: 35.56vh;
+    font-size: 1.67vw;
+    margin-top: -2.2vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  div.rebranding-about a {
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #BF5049;
+    cursor: pointer;
+    margin-top: -2.2vh;
+  }
+
+  div.rebranding-logo {
+    width: 100vw;
+    height: 70.3vh;
+    margin-top: -10vh;
+  }
+  div.rebranding-logo img{
+    width: 41.67vw;
+    height: 58.3vh;
+    margin-left: 30.167vw;
+    margin-top: 6vh;
+  }
+
+  div.rebranding-posters {
+    width: 69.4vw;
+    margin-top: 5.56vh;
+    margin-left: 15.28vw;
+    display: grid;
+    grid-template-columns: 24.3vw 24.3vw 20.8vw;
+    grid-template-rows: 58.2vh 46.67vh;
+  }
+
+  div.rebranding-posters img {
+    width: 21.4vw;
+    height: auto;
   }
 
   footer {
@@ -1435,8 +1557,9 @@
   }
 
   section.building {
+    background-color: #F6F6F6;
     width: 100vw;
-    height: 637.2vh;
+    height: 960vh;
     position: absolute;
     margin-top: 1410.8vh;
   }
@@ -1444,20 +1567,20 @@
   div.building-about {
     width: 100vw;
     height: 46.5vh;
-    background-color: #F6F6F6;
+    background-color: #272727;
     text-align: center;
   }
 
 
   div.building-about h1 {
-    color: #BF5049;
+    color: #FFFFFF;
     font-size: 6.4vw;
     padding-top: 4.5vh;
     text-align: center;
   }
 
   div.building-about p {
-    color: #272727;
+    color: #FFFFFF;
     width: 86.67vw;
     margin-left: 6.67vw;
     font-size: 3.7vw;
@@ -1470,7 +1593,7 @@
     text-decoration: none;
     font-size: 3.7vw;
     font-family: 'Montserrat', sans-serif;
-    color: #BF5049;
+    color: #FFFFFF;
     cursor: pointer;
     margin-top: -3vh;
     text-align: center;
