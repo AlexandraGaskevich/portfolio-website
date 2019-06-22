@@ -242,7 +242,7 @@
     font-size: 3.33vw;
     color: #BF5049;
     text-align: center;
-    margin-top: 6.67vh;
+    margin-top: 4.67vh;
   }
 
   div.poster-about-card p {
@@ -284,7 +284,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 58.2vh 46.67vh;
+    grid-auto-rows: 56.2vh 46.67vh;
   }
 
   div.graph-posters-image img {
@@ -296,7 +296,7 @@
     width: 100vw;
     height: 150.89vh;
     position: absolute;
-    margin-top: 222vh;
+    margin-top: 220vh;
     background-color: #F1F1F1;
     padding-bottom: 6vh;
   }
@@ -327,7 +327,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 58.2vh 46.67vh;
+    grid-auto-rows: 56.2vh 46.67vh;
   }
 
   div.typograph-posters-image img {
@@ -384,7 +384,7 @@
     width: 69.4vw;
     height: 69.4vh;
     margin-left: 15.28vw;
-    margin-top: 11.135vh;
+    margin-top: 10.135vh;
   }
 
   section.building {
@@ -427,7 +427,7 @@
   }
 
   div.book-pages {
-    margin-top: 11.1vh;
+    margin-top: 8vh;
     width: 69.4vw;
     margin-left: 15.28vw;
     display: grid;
@@ -441,13 +441,14 @@
 
   div.book-pages.two{
     grid-template-rows: 31.1vh 31.1vh 25.56vh;
+    margin-top: 8vh;
   }
 
   div.book-image {
     width: 69.4vw;
     height: 77.78vh;
     margin-left: 15.28vw;
-    margin-top: 11.1vh;
+    margin-top: 6vh;
   }
 
   div.book-image img {
@@ -495,9 +496,9 @@
   section.rebranding {
     display: block;
     position: relative;
-    margin-top: 102vh;
+    margin-top: 82vh;
     width: 100vw;
-    height: 218vh;
+    height: 226vh;
     background-color: #DECDBE;
   }
 
@@ -539,12 +540,6 @@
     margin-left: 15.28vw;
     margin-top: -12vh;
   }
-  div.rebranding-logo img{
-    width: 41.67vw;
-    height: 58.3vh;
-    margin-left: 30.167vw;
-    margin-top: 6vh;
-  }
 
   div.rebranding-posters {
     width: 69.4vw;
@@ -552,7 +547,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-template-rows: 52.2vh 46.67vh;
+    grid-template-rows: 54.2vh 46.67vh;
   }
 
   div.rebranding-posters img {
@@ -1110,16 +1105,12 @@
     margin-top: -2.2vh;
   }
 
-  div.rebranding-logo {
-    width: 100vw;
-    height: 70.3vh;
-    margin-top: -10vh;
-  }
-  div.rebranding-logo img{
-    width: 41.67vw;
-    height: 58.3vh;
-    margin-left: 30.167vw;
-    margin-top: 6vh;
+  .rebranding-video {
+    width: 69.4vw;
+    height: 66.67vh;
+    background-color: #C4C4C4;
+    margin-left: 15.28vw;
+    margin-top: -12vh;
   }
 
   div.rebranding-posters {
