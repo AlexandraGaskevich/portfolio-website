@@ -199,7 +199,7 @@
     font-size: 6.4vw;
     color: #BF5049;
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
 
   }
 
@@ -913,7 +913,7 @@
   div.project-text {
     width: 55.6vw;
     margin-left: 22.2vw;
-    margin-top: 5.56vh;
+    margin-top: 0;
     text-align: center;
     position: absolute;
     z-index: 2;
@@ -935,7 +935,7 @@
     justify-content: space-between;
     width: 69.4vw;
     margin-left: 15.3vw;
-    margin-top: 35.56vh;
+    margin-top: 30vh;
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -1159,7 +1159,7 @@
     }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 1439px){
 
   body {
     width: auto;
@@ -1195,7 +1195,7 @@
   nav.main-nav:hover {
     color:#BF5049;
   }
-  
+
   ul {
     list-style: none;
     position: absolute;
@@ -1327,7 +1327,7 @@
 
   section.project {
     width: 100vw;
-    height: 72.2vh;
+    height: 75.2vh;
     margin-top: 140vh;
     background-color: #272727;
   }
@@ -1335,7 +1335,7 @@
   div.project-text {
     width: 55.6vw;
     margin-left: 22.2vw;
-    margin-top: 5.56vh;
+    margin-top: 0;
     text-align: center;
     position: absolute;
     z-index: 2;
@@ -1357,7 +1357,7 @@
     justify-content: space-between;
     width: 69.4vw;
     margin-left: 15.3vw;
-    margin-top: 35.56vh;
+    margin-top: 33vh;
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -1367,7 +1367,7 @@
     font-size: 3.3vw;
     color: #BF5049;
     text-align: center;
-    margin-top: 8.89vh;
+    margin-top: 5.89vh;
   }
 
   div.project-cards p {
@@ -1569,4 +1569,99 @@
       margin-left: 70.8vw;
       margin-top: -3.89vh;
     }
+}
+
+@media (min-width: 1920px) {
+  section.project {
+    width: 100vw;
+    height: 75.2vh;
+    margin-top: 68vh;
+    background-color: #272727;
+  }
+
+  div.project-text {
+    width: 55.6vw;
+    margin-left: 22.2vw;
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+
+  div.project-text h1{
+    color: #FFFFFF;
+  }
+
+  div.project-text p{
+    color: #FFFFFF;
+    font-size: 1.67vw;
+    margin-top: -2.2vh;
+  }
+
+  div.project-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 69.4vw;
+    margin-left: 15.3vw;
+    margin-top: 33vh;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }
+
+  div.project-cards h1{
+    font-size: 3.3vw;
+    color: #BF5049;
+    text-align: center;
+    margin-top: 5.89vh;
+  }
+
+  div.project-cards p {
+    text-align: center;
+    font-size: 1vw;
+    margin-top: -2.22vh;
+  }
+
+  div.project-card-one {
+    height: 33.3vh;
+    width: 20.8vw;
+    background-color: #FFFFFF;
+  }
+
+  div.project-card-two {
+    height: 33.3vh;
+    width: 20.8vw;
+    background-color: #FFFFFF;
+  }
+
+  div.project-card-three {
+    height: 33.3vh;
+    width: 20.8vw;
+    background-color: #FFFFFF;
+  }
+
+  div.project-card-text {
+    width: 18vw;
+    margin-left: 1.4vw;
+    margin-top: -3.3vh;
+  }
+
+  div.small-divider img {
+    width: 49vw;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 0;
+  }
+
+  div.small-divider-mirror img{
+    width: 49vw;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 0;
+  }
 }
