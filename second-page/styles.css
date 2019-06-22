@@ -1108,12 +1108,11 @@
     margin-top: -2.2vh;
   }
 
-  .rebranding-video {
+  .rebranding-video iframe {
     width: 69.4vw;
     height: 66.67vh;
-    background-color: #C4C4C4;
     margin-left: 15.28vw;
-    margin-top: -12vh;
+    margin-top: -10vh;
   }
 
   div.rebranding-posters {
@@ -1599,7 +1598,7 @@
   div.book-pages {
     margin-top: 4.5vh;
     width: 80vw;
-    height: 232.4vh;
+    height: 216vh;
     margin-left: 10vw;
     display: flex;
     flex-direction: column;
@@ -1612,7 +1611,7 @@
   }
 
   div.book-pages.two{
-    height: 352.3vh;
+    height: 330vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1660,7 +1659,7 @@
   div.video {
     width: 100vw;
     height: 48vh;
-    background-color: #C4C4C4;
+    background-color: #FFFFFF;
     margin-top: 4.5vh;
   }
 
