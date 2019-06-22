@@ -296,7 +296,7 @@
     width: 100vw;
     height: 150.89vh;
     position: absolute;
-    margin-top: 219.1vh;
+    margin-top: 222vh;
     background-color: #F1F1F1;
     padding-bottom: 6vh;
   }
@@ -327,7 +327,7 @@
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
-    grid-auto-rows: 52.2vh 46.67vh;
+    grid-auto-rows: 58.2vh 46.67vh;
   }
 
   div.typograph-posters-image img {
@@ -335,7 +335,7 @@
   }
 
   section.web-poster {
-    padding-top: 0.1vh;
+    margin-top: 16vh;
     width: 100vw;
     height: 117.3vh;
   }
@@ -388,6 +388,7 @@
   }
 
   section.building {
+    margin-top: 22vh;
     width: 100vw;
     height: 478.2vh;
     background-color: #F6F6F6;
@@ -494,7 +495,7 @@
   section.rebranding {
     display: block;
     position: relative;
-    margin-top: 105.56vh;
+    margin-top: 102vh;
     width: 100vw;
     height: 218vh;
     background-color: #DECDBE;
@@ -531,10 +532,12 @@
     margin-top: -2.2vh;
   }
 
-  div.rebranding-logo {
-    width: 100vw;
-    height: 70.3vh;
-    margin-top: -20vh;
+  .rebranding-video {
+    width: 69.4vw;
+    height: 66.67vh;
+    background-color: #C4C4C4;
+    margin-left: 15.28vw;
+    margin-top: -12vh;
   }
   div.rebranding-logo img{
     width: 41.67vw;
@@ -545,7 +548,7 @@
 
   div.rebranding-posters {
     width: 69.4vw;
-    margin-top: 5.56vh;
+    margin-top: 6vh;
     margin-left: 15.28vw;
     display: grid;
     grid-template-columns: 24.3vw 24.3vw 20.8vw;
