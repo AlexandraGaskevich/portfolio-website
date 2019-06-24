@@ -1384,7 +1384,7 @@
     height: 77.78vh;
     margin-left: 15.28vw;
     margin-top: 6vh;
-    padding-bottom: 6vh;
+    padding-bottom: 12vh;
   }
 
   div.book-image img {
@@ -1884,7 +1884,7 @@
 
   div.building-video-about {
     width: 55.56vw;
-    margin-left: 15.28vw;
+    margin-left: 22vw;
     text-align: left;
     z-index: 1;
     padding-top: 6vh;
