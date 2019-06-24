@@ -40,7 +40,7 @@
     position: absolute;
     z-index: 2;
     text-align: center;
-    width: 80vw;
+    width: 100vw;
     margin-top: 2vw;
   }
   li {
@@ -83,7 +83,7 @@
   div.welcome-text p {
     color: #272727;
     font-size: 3.7vw;
-    margin-top: 1vh;
+    margin-top: 2vh;
     line-height: 1.5;
   }
 
@@ -218,7 +218,7 @@
   div.project-cards p {
     text-align: center;
     font-size: 3.7vw;
-    margin-top: -2vh;
+    margin-top: 2vh;
     line-height: 1.5;
   }
 
@@ -303,7 +303,7 @@
 
     div.card-text-text p {
       font-size: 3.7vw;
-      margin-top: -2vh;
+      margin-top: 2vh;
       line-height: 1.5;
       margin-bottom: 2vh;
     }
