@@ -1069,10 +1069,12 @@
 
   div.nav li :hover {
     color: #BF5049;
+    transition: all 300ms ease;
   }
 
   div.nav li:first-child :hover {
     color: #272727;
+    transition: all 300ms ease;
   }
 
   div.nav a{
